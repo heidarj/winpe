@@ -18,16 +18,16 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using winpe;
 
-namespace PixieLauncher {
+namespace PixieMenu {
     /// <summary>
     /// Interaction logic for menu.xaml
     /// </summary>
-    public partial class menu : UserControl {
+    public partial class PixieMenu : UserControl {
 
         static string windrive = System.IO.Path.GetPathRoot(Environment.SystemDirectory);
         static string toolsDir = windrive + @"Tools\";
 
-        public menu() {
+        public PixieMenu() {
             InitializeComponent();
             string[] tools = Directory.GetFiles(toolsDir);
             Console.WriteLine(tools[0]);

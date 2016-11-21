@@ -27,7 +27,7 @@ namespace winpe {
             InitializeComponent();
         }
 
-        bool isDocked = false;
+        public bool isDocked = false;
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
             //Dock();
@@ -41,22 +41,62 @@ namespace winpe {
             if (isDocked) {
                 AppBarFunctions.SetAppBar(this, ABEdge.None);
                 isDocked = false;
-                menuItemDock.Header = "Dock";
+                menuItem.Header = "Dock";
             }
             else {
-                AppBarFunctions.SetAppBar(this, ABEdge.Right, image1, true);
+                AppBarFunctions.SetAppBar(this, ABEdge.Right, dockPanel1, true);
                 isDocked = true;
-                menuItemDock.Header = "Undock";
+                menuItem.Header = "Undock";
             }
         }
 
+        
+
         private void image1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
-            image1.Opacity = 70;
+            image1.Source = new BitmapImage(new Uri(@"C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\resources\Creative-Tail-rocket.svg.red.png"));
         }
 
         private void image1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e) {
-            image1.Opacity = 100;
+            image1.Source = new BitmapImage(new Uri (@"C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\resources\Creative-Tail-rocket.svg.png"));
+            if(popup.IsOpen ==true) { popup.IsOpen = false; }
+            else { popup.IsOpen = true; }
+        }
+
+        private void image1_MouseEnter(object sender, MouseEventArgs e)
+        {
+            image1.Source = new BitmapImage(new Uri(@"C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\resources\Creative-Tail-rocket.svg.blue.png"));
+        }
+
+        private void image1_MouseLeave(object sender, MouseEventArgs e)
+        {
+            image1.Source = new BitmapImage(new Uri(@"C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\resources\Creative-Tail-rocket.svg.png"));
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            
+        }
+
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            if (isDocked) { Dock(); }
+
+            base.OnClosing(e);
+        }
+
+        private void dockPanelMenuItemDock_Click(object sender, RoutedEventArgs e)
+        {
             Dock();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            Dock();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

@@ -14,3 +14,23 @@
 \\innra.umsja.is\nyh$\private\isrek\home\h\heidarj\my documents\visual studio 2015\Projects\winpe\winpe\obj\Debug\PixieLauncher.pdb
 \\innra.umsja.is\nyh$\private\isrek\home\h\heidarj\my documents\visual studio 2015\Projects\winpe\winpe\obj\Debug\MainWindow.g.cs
 \\innra.umsja.is\nyh$\private\isrek\home\h\heidarj\my documents\visual studio 2015\Projects\winpe\winpe\obj\Debug\MainWindow.baml
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\bin\Debug\PixieLauncher.exe.config
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\bin\Debug\PixieLauncher.exe
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\bin\Debug\PixieLauncher.pdb
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\bin\Debug\WpfAppBar.dll
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\winpe.csprojResolveAssemblyReference.cache
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\MainWindow.g.cs
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\menu.g.cs
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\shortcut.g.cs
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\App.g.cs
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher_MarkupCompile.cache
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher_MarkupCompile.lref
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\MainWindow.baml
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\menu.baml
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\shortcut.baml
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher.g.resources
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher.Properties.Resources.resources
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\winpe.csproj.GenerateResource.Cache
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher.exe
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\PixieLauncher.pdb
+C:\Users\heida\OneDrive\Documents\GitHub\winpe\winpe\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PixieLauncher.Properties {
+namespace PixieMenu.Properties {
     using System;
     
     
